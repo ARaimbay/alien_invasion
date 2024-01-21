@@ -40,7 +40,7 @@ class AlienInvasion:
             self._create_alien(current_x)
             current_x += 2 * alien_width
 
-    def _create_alien(self, x_position)
+    def _create_alien(self, x_position):
         """Create an alien and place it in the row"""
         new_alien = Alien(self)
         new_alien_x = x_position
